@@ -51,3 +51,75 @@
 * Event-driven serverless compute.
 * Create function → attach IAM role → add trigger.
 * Common triggers: S3, API Gateway, CloudWatch.
+
+
+*  [User Upload]
+       |
+       v
+ [S3 Bucket] ---> (Trigger) ---> [Lambda Resize]
+       |                              |
+       v                              v
+   [Original]                  [Resized Image]
+                                     |
+                                     v
+                                  [Client]
+
+
+  ███████  
+ ██     ██ 
+ ██        
+  ██████   
+       ██  
+ ██     ██ 
+  ███████  
+ 
+   ████   
+  ██  ██  
+ ████████ 
+ ██    ██ 
+ ██    ██ 
+
+ ████████ 
+    ██    
+    ██    
+    ██    
+    ██    
+    ██    
+
+ ██    ██ 
+  ██  ██  
+   ████   
+    ██    
+    ██    
+    ██    
+ 
+   ████   
+  ██  ██  
+ ████████ 
+ ██    ██ 
+ ██    ██ 
+
+ ██    ██ 
+ ███   ██ 
+ ██ ██ ██ 
+ ██  ████ 
+ ██   ███ 
+ ██    ██ 
+
+  ███████  
+ ██     ██ 
+ ██        
+  ██████   
+       ██  
+ ██     ██ 
+  ███████  
+
+ ██    ██ 
+ ██    ██ 
+ ████████ 
+ ██    ██ 
+ ██    ██ 
+ ██    ██ 
+
+  
+
