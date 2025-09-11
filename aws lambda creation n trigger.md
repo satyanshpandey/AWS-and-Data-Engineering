@@ -5,7 +5,7 @@
 * **What it is:** Serverless compute service that runs code in response to events.
 * **Supported runtimes:** Python, Node.js, Java, Go, etc.
 * **Trigger sources:** S3 events, API Gateway, DynamoDB streams, CloudWatch events, Step Functions.
-
+ 
 ## Practical steps: Create Lambda Function
 
 
