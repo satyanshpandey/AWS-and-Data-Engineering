@@ -1,8 +1,4 @@
----
-
-# 🚀 AWS Data Engineering Mini Project – Employee Salary Aggregation
-
-## 📌 Core Concepts
+## 🚀 AWS Data Engineering Mini Project – Employee Salary Aggregation
 
 * **S3 (Raw Zone):** Source of employee data (hourly incoming CSV/JSON).
 * **Trigger:** Whenever file lands, pipeline starts automatically.
