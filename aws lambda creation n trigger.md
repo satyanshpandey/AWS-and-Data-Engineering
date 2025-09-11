@@ -8,6 +8,20 @@
 
 ## Practical steps: Create Lambda Function
 
+
+[User Upload] 
+     |
+     v
+   ( S3 )  --->  ( Lambda Trigger: Resize Image )  
+     |                       |
+     v                       v
+ [Original]           [Resized Image]
+                             |
+                             v
+                          [Client]
+
+
+
 1. **Open AWS Console → Lambda → Create function.**
 2. **Choose authoring method:** Author from scratch.
 3. **Enter details:** Function name, runtime (e.g., Python 3.9).
